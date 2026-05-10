@@ -2,3 +2,6 @@
 
 ## 概要
 Apple Accountのチャージキャンペーンを自動検索し、新規キャンペーンが見つかればGitHub Issueを作成するClaude Code Routine。
+
+## ステップ
+[docs/STEPS.md](docs/STEPS.md)を参照。
