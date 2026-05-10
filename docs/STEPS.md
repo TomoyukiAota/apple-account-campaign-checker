@@ -2,7 +2,7 @@
 
 1. Web検索で「Apple Account チャージ キャンペーン」「Apple Gift Card 還元 キャンペーン」を検索し、現在開催中もしくは将来開催予定のキャンペーン情報（例：Apple Gift Card付与、キャッシュバック）を探す。ただし、抽選など還元が不確実なキャンペーンではなく、確実に還元されるキャンペーンを探す。
 
-2. 今回の作業用のブランチ`result/{YYYY-MM-DD_hh-mm-ss}`を作成＆チェックアウトし、`results/result_{YYYY-MM-DD_hh-mm-ss}.md`ファイルを作成、commit、push、main branchに対してPRを作成、PRをマージする。日時のタイムゾーンはJSTを採用する。ファイルの内容: 検索日時(JST)、見つかったキャンペーン一覧（なければ「該当なし」）、各キャンペーンのURL
+2. 今回の作業用のブランチ`result/{YYYY-MM-DD_hh-mm-ss}`を作成＆チェックアウトし、`results/result_{YYYY-MM-DD_hh-mm-ss}.md`ファイルを作成、commit、push、main branchに対してPRを作成（PRのタイトルは「{YYYY-MM-DD_hh-mm-ss} 検索結果 （{概要}）」）、PRをマージする。日時のタイムゾーンはJSTを採用する。ファイルの内容: 検索日時(JST)、見つかったキャンペーン一覧（なければ「該当なし」）、各キャンペーンのURL
 
 3. キャンペーンが見つかった場合：
    - このリポジトリの既存Issueを確認し、同一期間かつ同一内容のキャンペーンのIssueがないか確認する
