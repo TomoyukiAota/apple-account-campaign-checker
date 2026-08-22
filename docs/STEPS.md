@@ -12,6 +12,7 @@
         - MyJCBにログインが必要なキャンペーン
             - 理由：MyJCBに登録できるクレジットカード・デビットカードを所持していないため。
     - 期間限定ポイントが付与される場合は、ポイントの有効期限についても調査する。
+        - 有効期限を調査する際は、Web検索結果の要約（スニペット）だけで判断せず、公式ページ本文（または引用元記事の本文）を実際に開いて確認すること。
 
 2. 今回の作業用のブランチ`result/{YYYY-MM-DD_hh-mm-ss}`を作成＆チェックアウトし、`results/{YYYY}/{MM}/result_{YYYY-MM-DD_hh-mm-ss}.md`ファイルを作成、commit（コミットメッセージは「Automated Commit: Add search result for {YYYY-MM-DD_hh-mm-ss} ({概要})」）、push、main branchに対してPRを作成（PRのタイトルは「{YYYY-MM-DD_hh-mm-ss} 検索結果（概要：{概要}）」）、PRをマージする。日時のタイムゾーンはJSTを採用する。ファイルの内容: 検索日時(JST)、見つかったキャンペーン一覧（なければ「該当なし」）、各キャンペーンのURL
 
